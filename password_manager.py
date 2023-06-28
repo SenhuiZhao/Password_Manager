@@ -131,7 +131,7 @@ def main():
         print('For user information safety, the system exits.')
         exit()
 
-    print("Welcome to the password manager system!")
+    print("Welcome to the password managerment system!")
 
     key = load_key() + master_pwd.encode()
     global fer
